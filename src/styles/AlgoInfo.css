@@ -1,0 +1,39 @@
+.algo-container {
+  margin: 0 15px;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+.algo-header {
+  text-shadow: rgba(200, 0, 0, 0.7) 1px -1px, rgba(200, 0, 0, 0.7) 2px -2px,
+    rgba(200, 0, 0, 0.7) 3px -3px;
+  transform: perspective(400px) rotateX(20deg);
+  transition: 0.4s ease;
+  color: #e2dada;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.algo-header:hover {
+  transform: perspective(400px) rotateX(30deg) rotateY(20deg);
+}
+
+.algo-details {
+  font-weight: 500;
+  color: #213547;
+}
+
+.algo-complexity {
+  /* border: 1px solid black; */
+  margin-top: 15px;
+  margin-left: 20px;
+  text-align: start;
+  font-weight: 700;
+}
+
+.time-complexity-item{
+    margin-left: 15px;
+    text-align: start;
+    font-weight: 700;
+}
+
